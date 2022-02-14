@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px auto;
+}
+
+.scenery .sun {
+  background-color: hsl(51 100% 80%);
+  height: 250px;
+  width: 500px;
+  border-radius: 250px 250px 0px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+  box-shadow: 0px -10px 20px 10px hsl(30 100% 52%);
+}
+
+.scenery .sky {
+  height: 50%;
+  position: relative;
+}
+
+.scenery .sky-shade {
+  height: 20%;
+}
+
+.scenery .sky-shade:nth-child(2) {
+  background-color: hsl(50, 100%, 70%);
+}
+
+.scenery .sky-shade:nth-child(3) {
+  background-color: hsl(45, 100%, 60%);
+  box-shadow: 0px -4px 10px hsl(45, 100%, 60%);
+}
+
+.scenery .sky-shade:nth-child(4) {
+  background-color: hsl(35, 100%, 60%);
+  box-shadow: 0px -4px 10px hsl(35, 100%, 60%);
+}
+
+.scenery .sky-shade:nth-child(5) {
+  background-color: hsl(30, 100%, 55%);
+  box-shadow: 0px -4px 10px hsl(30, 100%, 55%);
+}
+
+.scenery .sky-shade:nth-child(6) {
+  background-color: hsl(25, 100%, 50%);
+  box-shadow: 0px -4px 10px hsl(25, 100%, 50%);
+}
+
+.scenery .ocean {
+  height: 50%;
+}
+
+.scenery .ocean-shade {
+  height: 20%;
+}
+
+.scenery .ocean-shade:nth-child(1) {
+  background-color: hsl(210 90% 50%);
+}
+.scenery .ocean-shade:nth-child(2) {
+  background-color: hsl(215, 90%, 50%);
+  box-shadow: 0px -4px 10px hsl(215, 90%, 50%);
+}
+.scenery .ocean-shade:nth-child(3) {
+  background-color: hsl(220, 90%, 50%);
+  box-shadow: 0px -4px 10px hsl(220, 90%, 50%);
+}
+.scenery .ocean-shade:nth-child(4) {
+  background-color: hsl(225, 90%, 50%);
+  box-shadow: 0px -4px 10px hsl(225, 90%, 50%);
+}
+.scenery .ocean-shade:nth-child(5) {
+  background-color: hsl(230, 90%, 50%);
+  box-shadow: 0px -4px 10px hsl(230, 90%, 50%);
+}
